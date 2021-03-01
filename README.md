@@ -8,7 +8,7 @@ L2CAP is a common protocol that resides in host stack to support both bluetooth 
 
 
 ## Prerequisite
-Linux Machine with BLE Adapter. If the machine doesn't come with an inbuilt adapter, you can a get one external adapter
+Linux Machine with BLE Adapter. If the machine doesn't come with an inbuilt adapter, you can a get an external one
 
 ## Usage: 
 ```sh

@@ -2,7 +2,7 @@
 BLE implementation of **Linux: Heap-Based Type Confusion in L2CAP** PoC (CVE-2020-12351)
 
 ## Why did I modify the original PoC?
-The original [PoC][Andy Nguyen, Google Security Research Team] is focused on sending a malicious l2cap packet via Bluetooth Classic. However, I had a requirement to test it against a peripheral that supports only Bluetooth Low Energy (BLE) communication. 
+The original [PoC][Andy Nguyen, Google Security Research Team] is focused on sending a malicious l2cap packet via Bluetooth Classic. However, I had a requirement to test it against a peripheral that supports only Bluetooth Low Energy (BLE) communication and has adopted the entire BlueZ stack (both classic and LE)
 
 L2CAP is a common protocol that resides in host stack to support both bluetooth classic and BLE implementations
 
